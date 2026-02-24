@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "whyUs": "Why Us",
+    "about": "About",
+    "freeConsultation": "Free Consultation"
+  },
+  "hero": {
+    "badge": "Your Leading Financial Partner in the Middle East",
+    "title": "Your External",
+    "titleAccent": "Financial Management",
+    "description": "An integrated accounting department dedicated to startups and SMEs in Egypt and the Middle East. Transform your numbers from a burden into a clear language for growth.",
+    "ctaPrimary": "Book Free Consultation",
+    "ctaSecondary": "Explore Services",
+    "savingsLabel": "Average Cost Savings"
+  },
+  "about": {
+    "label": "About Us",
+    "title": "A Bridge Between Expertise and Technology",
+    "description": "At Bayan Solutions, we are not just accountants; we are success partners. Our mission is to merge deep accounting expertise with modern cloud systems to empower entrepreneurs in the MENA region. We handle the complexities so you can focus on your vision."
+  },
+  "systems": {
+    "label": "Supported Systems",
+    "title": "We Speak Your Digital Language"
+  },
+  "whyUs": {
+    "label": "Why Choose Bayan",
+    "title": "The Bayan Advantage",
+    "feature1": {
+      "title": "From Chaos to Order",
+      "desc": "We implement streamlined digital systems that organize your financial records instantly, eliminating paper chaos and confusion."
+    },
+    "feature2": {
+      "title": "Data-Driven Decisions",
+      "desc": "Stop guessing. Understand the difference between cash flow and profit, and take strategic steps backed by real numbers."
+    },
+    "feature3": {
+      "title": "Tax Peace of Mind",
+      "desc": "Ensure full compliance with Egyptian and regional tax regulations. No more fines or worries about audits."
+    },
+    "feature4": {
+      "title": "Cost Savings",
+      "desc": "Get a full team of financial experts at a lower cost than a junior in-house accountant. Efficiency breeds profit."
+    }
+  },
+  "services": {
+    "title": "Our Core Services",
+    "description": "Comprehensive financial solutions tailored to meet the changing needs of modern businesses.",
+    "service1": {
+      "title": "Financial System Setup",
+      "desc": "Implementation of customized cloud accounting software to fit your workflow."
+    },
+    "service2": {
+      "title": "Monthly Accounting & Bookkeeping",
+      "desc": "Accurate recording of all transactions, bank reconciliations, and expense tracking."
+    },
+    "service3": {
+      "title": "Financial Reporting",
+      "desc": "Regular profit and loss statements, balance sheets, and cash flow reports with clarity."
+    },
+    "service4": {
+      "title": "Tax & Compliance",
+      "desc": "VAT filing, annual tax returns, and regulatory compliance management."
+    },
+    "service5": {
+      "title": "Financial Consulting & Analysis",
+      "desc": "CFO-level insights to help you scale, budget, and forecast for the future."
+    }
+  },
+  "footer": {
+    "ctaTitle": "Ready to build your success on clear numbers?",
+    "ctaDesc": "Let's turn your finances into your strongest asset. Book your free consultation today.",
+    "ctaButton": "Start Now",
+    "navTitle": "Browse",
+    "legalTitle": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contactTitle": "Contact Us",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "officeLabel": "Office",
+    "officeValue": "Cairo, Egypt",
+    "rights": "All rights reserved."
+  }
+}
