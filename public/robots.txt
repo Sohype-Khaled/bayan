@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sohype-khaled.github.io/bayan/sitemap.xml

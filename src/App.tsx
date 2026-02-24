@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 import { 
@@ -377,9 +378,37 @@ const Footer = () => {
   );
 };
 
+const seo = {
+  ar: {
+    title: "بيان للحلول المالية | قسم محاسبة متكامل للشركات الناشئة والمتوسطة",
+    description: "قسم محاسبة متكامل مخصص للشركات الناشئة والمتوسطة في مصر والشرق الأوسط. حول أرقامك من عبء مرهق إلى لغة واضحة للنمو.",
+    ogTitle: "بيان للحلول المالية | Bayan Financial Solutions",
+  },
+  en: {
+    title: "Bayan Financial Solutions | Integrated Accounting for Startups & SMEs",
+    description: "An integrated accounting department dedicated to startups and SMEs in Egypt and the Middle East. Transform your numbers from a burden into a clear language for growth.",
+    ogTitle: "Bayan Financial Solutions | بيان للحلول المالية",
+  },
+} as const;
+
+function useSEO() {
+  const { i18n } = useTranslation();
+  useEffect(() => {
+    const lang = (i18n.language === "ar" ? "ar" : "en") as keyof typeof seo;
+    const meta = seo[lang];
+    document.title = meta.title;
+    document.querySelector('meta[name="description"]')?.setAttribute("content", meta.description);
+    document.querySelector('meta[property="og:title"]')?.setAttribute("content", meta.ogTitle);
+    document.querySelector('meta[property="og:description"]')?.setAttribute("content", meta.description);
+    document.querySelector('meta[name="twitter:title"]')?.setAttribute("content", meta.ogTitle);
+    document.querySelector('meta[name="twitter:description"]')?.setAttribute("content", meta.description);
+  }, [i18n.language]);
+}
+
 export default function App() {
   const { t } = useTranslation();
-  
+  useSEO();
+
   return (
     <div className="font-sans">
       <Navbar />
