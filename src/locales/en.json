@@ -83,5 +83,84 @@
     "officeValue": "Cairo, Egypt",
     "rights": "All rights reserved.",
     "copyright": "Bayan Solutions"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: October 26, 2026",
+    "intro": "At Bayan Solutions, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, and safeguard the data you provide to us when using our accounting and financial services. By accessing our services, you consent to the practices described in this policy.",
+    "section1": {
+      "title": "1. Information Collection",
+      "content": "We collect information that you provide directly to us, such as when you create an account, request a quote, or communicate with our support team. This may include your name, email address, phone number, and company financial details necessary for our services.",
+      "items": [
+        "Personal identification information (Name, email address, phone number, etc.)",
+        "Company details and financial records required for accounting services.",
+        "Payment information for billing purposes."
+      ]
+    },
+    "section2": {
+      "title": "2. Data Usage",
+      "content": "We use the information we collect to provide, maintain, and improve our services, including to process transactions, send you related information, and respond to your comments and questions. Specifically, we use your data to:",
+      "items": [
+        "Process accounting records",
+        "Compliance reporting",
+        "Client communication",
+        "Service optimization"
+      ]
+    },
+    "section3": {
+      "title": "3. Security Measures",
+      "content": "We implement appropriate technical and organizational measures to protect the security of your personal information. However, please be aware that no method of transmission over the Internet or method of electronic storage is 100% secure.",
+      "content2": "Our security protocols include encryption, access controls, and regular security audits to ensure your financial data remains confidential and protected against unauthorized access."
+    },
+    "section4": {
+      "title": "4. Sharing of Information",
+      "content": "We do not share your personal information with third parties except as necessary to provide our services, comply with the law, or protect our rights. We may share information with trusted third-party service providers who assist us in operating our website and conducting our business, provided they agree to keep this information confidential."
+    },
+    "ctaTitle": "Have questions about your data?",
+    "ctaDesc": "Our dedicated support team is available to address any concerns regarding our privacy practices.",
+    "ctaButton": "Contact Privacy Officer"
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "lastUpdated": "Last updated: October 24, 2026",
+    "intro": "Welcome to Bayan Solutions. These terms and conditions outline the rules and regulations for the use of Bayan Solutions' Website and accounting services. By accessing this website and utilizing our outsourced accounting services, we assume you accept these terms and conditions. Do not continue to use Bayan Solutions if you do not agree to take all of the terms and conditions stated on this page.",
+    "section1": {
+      "title": "1. Service Agreement",
+      "content": "The services provided by Bayan Solutions include but are not limited to bookkeeping, financial reporting, tax preparation, and payroll management. The specific scope of work will be detailed in a separate Engagement Letter signed by both parties. Any additional services requested outside the scope of the Engagement Letter will be billed separately.",
+      "items": [
+        "Services are provided on a monthly or annual retainer basis as agreed.",
+        "We adhere to International Financial Reporting Standards (IFRS).",
+        "Service delivery timelines are contingent upon timely provision of data by the client."
+      ]
+    },
+    "section2": {
+      "title": "2. Client Responsibilities",
+      "content": "To ensure the accuracy and timeliness of our services, the Client agrees to provide all necessary financial documents, bank statements, invoices, and other relevant records by the agreed-upon deadlines each month.",
+      "content2": "The Client retains full responsibility for the accuracy and completeness of the records provided to Bayan Solutions. We rely on the information provided by the Client and do not audit or verify this information unless specifically engaged to do so."
+    },
+    "section3": {
+      "title": "3. Payment Terms",
+      "content": "Invoices are issued on the 1st of each month for that month's services. Payment is due within 15 days of the invoice date. A late fee of 1.5% per month may be applied to overdue balances.",
+      "items": [
+        { "label": "Invoicing", "value": "Invoices are issued on the 1st of each month for that month's services." },
+        { "label": "Due Date", "value": "Payment is due within 15 days of the invoice date." },
+        { "label": "Late Fees", "value": "A late fee of 1.5% per month may be applied to overdue balances." }
+      ]
+    },
+    "section4": {
+      "title": "4. Confidentiality",
+      "content": "Bayan Solutions is committed to protecting your privacy. All financial data, business strategies, and personal information shared with us will be kept strictly confidential and will not be disclosed to third parties without your written consent, except as required by law."
+    },
+    "section5": {
+      "title": "5. Limitation of Liability",
+      "content": "Bayan Solutions shall not be liable for any indirect, incidental, or consequential damages arising out of the use of our services. Our total liability for any claim arising out of our services shall not exceed the fees paid by the Client to Bayan Solutions during the three (3) months preceding the claim."
+    },
+    "section6": {
+      "title": "6. Termination",
+      "content": "Either party may terminate the engagement by providing 30 days written notice. Upon termination, the Client shall pay for all services rendered up to the date of termination. Bayan Solutions will return all client records upon settlement of any outstanding invoices."
+    },
+    "ctaTitle": "Still have questions?",
+    "ctaDesc": "Our legal team is happy to clarify any points regarding our terms.",
+    "ctaButton": "Contact Support"
   }
 }
