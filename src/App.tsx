@@ -53,12 +53,10 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0 flex items-center gap-2">
-            <div className="h-10 w-10 bg-primary rounded-lg flex items-center justify-center overflow-hidden">
-               <span className="text-white font-bold text-xl">ب</span>
-            </div>
+            <img src="/logo.jpeg" alt="بيان" className="h-10 w-10 rounded-lg object-cover" />
             <span className="font-display font-bold text-2xl text-primary tracking-tight">بيان</span>
           </div>
-          <div className="hidden md:flex space-x-8 space-x-reverse items-center">
+          <div className="hidden md:flex gap-8 items-center">
             <a href="#" className="text-gray-700 hover:text-primary font-medium transition">{t('nav.home')}</a>
             <a href="#services" className="text-gray-700 hover:text-primary font-medium transition">{t('nav.services')}</a>
             <a href="#why-us" className="text-gray-700 hover:text-primary font-medium transition">{t('nav.whyUs')}</a>
@@ -305,9 +303,7 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row justify-between items-start gap-12">
           <div className="lg:w-1/3">
             <div className="flex items-center gap-2 mb-6">
-              <div className="h-8 w-8 bg-primary rounded-md flex items-center justify-center">
-                <span className="text-white font-bold text-sm">ب</span>
-              </div>
+              <img src="/logo.jpeg" alt="بيان" className="h-8 w-8 rounded-md object-cover" />
               <span className="font-display font-bold text-2xl text-primary">بيان</span>
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('footer.ctaTitle')}</h3>
