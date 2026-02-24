@@ -13,6 +13,9 @@ import {
   Phone, 
   MapPin, 
   Linkedin,
+  Instagram,
+  Facebook,
+  Globe,
   Menu,
   ArrowLeft,
   ArrowRight,
@@ -342,14 +345,14 @@ const Footer = () => {
                 <Mail className="w-5 h-5 text-primary mt-1" />
                 <div>
                   <span className="block text-xs text-gray-500 font-semibold uppercase">{t('footer.emailLabel')}</span>
-                  <a href="mailto:info@bayansolutions.com" className="text-gray-700 hover:text-primary transition">info@bayansolutions.com</a>
+                  <a href="mailto:info@bayansolutions.net" className="text-gray-700 hover:text-primary transition">info@bayansolutions.net</a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-primary mt-1" />
                 <div>
                   <span className="block text-xs text-gray-500 font-semibold uppercase">{t('footer.phoneLabel')}</span>
-                  <a href="tel:+201000000000" className="text-gray-700 hover:text-primary transition" dir="ltr">+20 100 000 0000</a>
+                  <a href="tel:+201559611939" className="text-gray-700 hover:text-primary transition" dir="ltr">+20 155 961 1939</a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -360,9 +363,18 @@ const Footer = () => {
                 </div>
               </li>
             </ul>
-            <div className="mt-8">
-              <a href="#" className="text-gray-400 hover:text-primary transition">
+            <div className="mt-8 flex gap-4">
+              <a href="https://www.linkedin.com/company/bayansolutions/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition">
                 <Linkedin className="w-6 h-6" />
+              </a>
+              <a href="https://www.instagram.com/bayan.solutions" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition">
+                <Instagram className="w-6 h-6" />
+              </a>
+              <a href="https://www.facebook.com/bayansolutions.net/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition">
+                <Facebook className="w-6 h-6" />
+              </a>
+              <a href="https://bayansolutions.net" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition">
+                <Globe className="w-6 h-6" />
               </a>
             </div>
           </div>
