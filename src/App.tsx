@@ -52,9 +52,8 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
-          <div className="flex-shrink-0 flex items-center gap-2">
-            <img src="/logo.jpeg" alt="بيان" className="h-10 w-10 rounded-lg object-cover" />
-            <span className="font-display font-bold text-2xl text-primary tracking-tight">بيان</span>
+          <div className="flex-shrink-0">
+            <img src="/logo-text.png" alt="Bayan Solutions" className="h-12 object-contain" />
           </div>
           <div className="hidden md:flex gap-8 items-center">
             <a href="#" className="text-gray-700 hover:text-primary font-medium transition">{t('nav.home')}</a>
@@ -123,11 +122,10 @@ const Hero = () => {
           className="w-full md:w-1/2 mt-12 md:mt-0 relative"
         >
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform md:-rotate-2 hover:rotate-0 transition duration-500">
-            <img 
-              src="https://picsum.photos/seed/finance/800/600" 
-              alt="Financial Professional" 
+            <img
+              src="/hero.png"
+              alt="Bayan Financial Solutions"
               className="w-full h-auto object-cover"
-              referrerPolicy="no-referrer"
             />
             <div className="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
           </div>
@@ -302,9 +300,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row justify-between items-start gap-12">
           <div className="lg:w-1/3">
-            <div className="flex items-center gap-2 mb-6">
-              <img src="/logo.jpeg" alt="بيان" className="h-8 w-8 rounded-md object-cover" />
-              <span className="font-display font-bold text-2xl text-primary">بيان</span>
+            <div className="mb-6">
+              <img src="/logo-text.png" alt="Bayan Solutions" className="h-10 object-contain" />
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('footer.ctaTitle')}</h3>
             <p className="text-gray-600 mb-8">
