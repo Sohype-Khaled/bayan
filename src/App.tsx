@@ -375,7 +375,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-200 mt-16 pt-8 text-center">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} بيان للحلول. {t('footer.rights')}
+            © {new Date().getFullYear()} {t('footer.copyright')}. {t('footer.rights')}
           </p>
         </div>
       </div>

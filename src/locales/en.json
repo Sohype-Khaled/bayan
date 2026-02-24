@@ -9,7 +9,7 @@
   "hero": {
     "badge": "Your Leading Financial Partner in the Middle East",
     "title": "Your External",
-    "titleAccent": "Financial Management",
+    "titleAccent": "Accounting Team",
     "description": "An integrated accounting department dedicated to startups and SMEs in Egypt and the Middle East. Transform your numbers from a burden into a clear language for growth.",
     "ctaPrimary": "Book Free Consultation",
     "ctaSecondary": "Explore Services",
@@ -81,6 +81,7 @@
     "phoneLabel": "Phone",
     "officeLabel": "Office",
     "officeValue": "Cairo, Egypt",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "copyright": "Bayan Solutions"
   }
 }
