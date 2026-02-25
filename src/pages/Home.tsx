@@ -108,7 +108,7 @@ const Systems = () => {
       <div className="relative max-w-full overflow-hidden scroller">
         <div className="flex space-x-12 space-x-reverse animate-scroll whitespace-nowrap">
           {[...systems, ...systems].map((system, idx) => (
-            <div key={idx} className="flex flex-col items-center gap-3 group min-w-[150px]">
+            <div key={idx} className="flex flex-col items-center gap-3 group min-w-37.5">
               <div className="w-16 h-16 bg-white rounded-xl shadow-sm flex items-center justify-center p-3 border border-gray-100 group-hover:border-primary/50 transition-colors">
                 {system.icon}
               </div>
